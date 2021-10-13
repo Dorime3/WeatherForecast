@@ -8,7 +8,7 @@ import { Popup } from './shared/popup/Popup';
 function App() {
   return (
     <div className={'global-container'}>
-      <Popup />
+      {/* <Popup /> */}
       <div className="container">
         <Header />
         <Switch>
