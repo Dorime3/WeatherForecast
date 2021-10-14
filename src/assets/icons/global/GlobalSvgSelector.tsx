@@ -256,7 +256,7 @@ export const GlobalSvgSelector = ({ id }: Props) => {
                     </defs>
                 </svg>
             );
-        case 'mainly_cloudy':
+        case 'Clouds':
             return (
                 <svg
                     width="48"

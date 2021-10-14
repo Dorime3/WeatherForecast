@@ -14,10 +14,11 @@ export const Header = (props: Props) => {
 
 
     const options = [
-        { value: 'city-1', label: 'Москва' },
-        { value: 'city-2', label: 'Санкт-Петербург' },
-        { value: 'city-3', label: 'Крыжопль' }
+        { value: 524894, label: 'Москва' },
+        { value: 498817, label: 'Санкт-Петербург' },
+        { value: 487846, label: 'Крыжопль' }
     ]
+
 
     const colourStyles = {
         control: (styles: any) => ({

@@ -1,10 +1,15 @@
 import React from 'react'
 import { IndicatorSvgSelector } from '../../../../assets/icons/indicators/IndicatorSVGSelector'
-import { Item } from './ThisDayInfo'
+import { Item, Wind } from './ThisDayInfo'
 import s from './ThisDayInfo.module.scss'
 
 interface Props {
-    item: Item
+    item: Item,
+    temp: number,
+    feelsLike: number,
+    pressure: number,
+    precipitation: string,
+    wind: Wind
 }
 
 export const ThisDayItem = ({ item }: Props) => {

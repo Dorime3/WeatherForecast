@@ -1,4 +1,5 @@
 import { ReactNode, useState } from "react"
+import { getWeatherThisDay } from "../api/requestsApi"
 import { Theme, ThemeContext } from "../context/ThemeContext"
 import { changeCssRootVariables } from "../model/ChangeCssRootVariables"
 import { storage } from "../model/Storage"
@@ -16,6 +17,7 @@ export const ThemeProvider = ({ children, ...props }: Props) => {
         setTheme(theme);
         changeCssRootVariables(theme);
     }
+
     return <ThemeContext.Provider value={{
         theme,
         changeTheme
